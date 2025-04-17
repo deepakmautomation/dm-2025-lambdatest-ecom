@@ -25,16 +25,4 @@
       </class> <!-- com.dvm.qa.selenium.testcases.LoginPageTest -->
     </classes>
   </test> <!-- firefoxTest(failed) -->
-  <test thread-count="5" parallel="tests" name="ChromeTest(failed)">
-    <parameter name="browsername" value="chrome"/>
-    <classes>
-      <class name="com.dvm.qa.selenium.testcases.LoginPageTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="verify_Login_with_valid_credentials"/>
-        </methods>
-      </class> <!-- com.dvm.qa.selenium.testcases.LoginPageTest -->
-    </classes>
-  </test> <!-- ChromeTest(failed) -->
 </suite> <!-- Failed suite [LambdaTestEcomSuite] -->

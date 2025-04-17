@@ -1,5 +1,8 @@
 package com.dvm.qa.selenium.testcases;
 
+import java.net.MalformedURLException;
+import java.net.URISyntaxException;
+
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
@@ -21,7 +24,7 @@ public class LoginPageTest extends TestBase{
 	
 	@Parameters({"browsername"})
 	@BeforeMethod
-	public void setUp(String browsername) {
+	public void setUp(String browsername) throws MalformedURLException, URISyntaxException {
 		testBase = new TestBase();
 		//driver = testBase.launchBrowser(prop.getProperty("browser"));
 		driver = testBase.launchBrowser(browsername);
