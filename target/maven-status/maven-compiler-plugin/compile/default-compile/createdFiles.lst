@@ -1,0 +1,4 @@
+com\dvm\qa\selenium\pages\HomePage.class
+com\dvm\qa\selenium\testbase\TestBase.class
+com\dvm\qa\selenium\pages\DashboardPage.class
+com\dvm\qa\selenium\pages\LoginPage.class

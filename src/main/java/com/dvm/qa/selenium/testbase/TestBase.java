@@ -28,7 +28,7 @@ public class TestBase {
 	public static Properties prop;
 	
 	private String uname =  "deepakmautomation";
-	private String akey = "XfwO6Eu1lUlC9mLXnkhLPPpBb7gWKK7qX7Q9Cr6KSY0GKQO7Ea";
+	private String akey = "LT_gSiwhdZWbZBFabYoXbPitx6GKu5PgPectSo8rrymbUc0aPb";
 
 	public TestBase() {
 		try {
