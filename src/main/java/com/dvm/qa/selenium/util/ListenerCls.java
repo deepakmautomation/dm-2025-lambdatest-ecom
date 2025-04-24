@@ -12,6 +12,7 @@ public class ListenerCls implements ITestListener{
 	@Override
 	public void onStart(ITestContext context) {
 		System.out.println("Test Started");
+		SelnmAutoReport.generateReport();
 	}
 
 	@Override
@@ -45,6 +46,7 @@ public class ListenerCls implements ITestListener{
 	@Override
 	public void onFinish(ITestContext context) {
 		System.out.println("Test Finshed");
+		SelnmAutoReport.extent.flush();
 	}
 
 	

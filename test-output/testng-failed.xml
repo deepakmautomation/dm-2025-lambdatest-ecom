@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite parallel="tests" name="Failed suite [LambdaTestEcomSuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.dvm.qa.selenium.util.ListenerCls"/>
+  </listeners>
   <test thread-count="5" parallel="tests" name="firefoxTest(failed)">
     <parameter name="browsername" value="firefox"/>
     <classes>

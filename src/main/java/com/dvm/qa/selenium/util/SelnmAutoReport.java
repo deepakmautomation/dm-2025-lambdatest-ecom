@@ -1,7 +1,5 @@
 package com.dvm.qa.selenium.util;
 
-import java.io.File;
-
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
@@ -12,11 +10,11 @@ public class SelnmAutoReport {
 	public static ExtentReports extent;
 	public static ExtentTest test;
 	
-	public void generateReport() {
+	public static void generateReport() {
 		
 		extent = new ExtentReports();
 		
-	    ExtentSparkReporter  spark = new ExtentSparkReporter("target\\SelnmAutoReports\\SelnmAutoReport.html");
+	    ExtentSparkReporter  spark = new ExtentSparkReporter("target/SelnmAutoReports/SelnmAutoReport.html");
 		
 		spark.config().setDocumentTitle("SeleniumAutoReport");
 		spark.config().setReportName("SeleniumAutoReport");

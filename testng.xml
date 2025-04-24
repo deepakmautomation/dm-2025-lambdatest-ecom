@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="LambdaTestEcomSuite" thread-count="5" parallel="tests">
+<listeners>
+	<listener class-name="com.dvm.qa.selenium.util.ListenerCls"></listener>
+</listeners>
   <test name="ChromeTest">
   <parameter name="browsername" value="chrome"></parameter>
     <classes>

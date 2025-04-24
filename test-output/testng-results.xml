@@ -1,36 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="0" skipped="1">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-22T21:46:42 IST" name="LambdaTestEcomSuite" finished-at="2025-04-22T21:50:01 IST" duration-ms="198903">
+  <suite started-at="2025-04-24T22:06:40 IST" name="LambdaTestEcomSuite" finished-at="2025-04-24T22:07:01 IST" duration-ms="20764">
     <groups>
     </groups>
-    <test started-at="2025-04-22T21:46:42 IST" name="edgeTest" finished-at="2025-04-22T21:47:12 IST" duration-ms="29547">
+    <test started-at="2025-04-24T22:06:40 IST" name="ChromeTest" finished-at="2025-04-24T22:06:54 IST" duration-ms="13998">
       <class name="com.dvm.qa.selenium.testcases.LoginPageTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@5542c4ed]" started-at="2025-04-22T21:46:42 IST" name="setUp" finished-at="2025-04-22T21:47:04 IST" duration-ms="22065" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verify_Login_with_valid_credentials()[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@5542c4ed]" started-at="2025-04-22T21:47:04 IST" name="verify_Login_with_valid_credentials" finished-at="2025-04-22T21:47:11 IST" duration-ms="7091" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_Login_with_valid_credentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@5542c4ed]" started-at="2025-04-22T21:47:11 IST" name="tearDown" finished-at="2025-04-22T21:47:12 IST" duration-ms="347" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.dvm.qa.selenium.testcases.LoginPageTest -->
-    </test> <!-- edgeTest -->
-    <test started-at="2025-04-22T21:46:42 IST" name="ChromeTest" finished-at="2025-04-22T21:47:35 IST" duration-ms="52988">
-      <class name="com.dvm.qa.selenium.testcases.LoginPageTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@3270d194]" started-at="2025-04-22T21:46:42 IST" name="setUp" finished-at="2025-04-22T21:47:27 IST" duration-ms="45160" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@4802796d]" started-at="2025-04-24T22:06:41 IST" name="setUp" finished-at="2025-04-24T22:06:45 IST" duration-ms="4622" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,19 +18,42 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verify_Login_with_valid_credentials()[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@3270d194]" started-at="2025-04-22T21:47:27 IST" name="verify_Login_with_valid_credentials" finished-at="2025-04-22T21:47:35 IST" duration-ms="7380" status="PASS">
+        <test-method signature="verify_Login_with_valid_credentials()[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@4802796d]" started-at="2025-04-24T22:06:45 IST" name="verify_Login_with_valid_credentials" finished-at="2025-04-24T22:06:54 IST" duration-ms="8393" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Login_with_valid_credentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@3270d194]" started-at="2025-04-22T21:47:35 IST" name="tearDown" finished-at="2025-04-22T21:47:35 IST" duration-ms="413" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@4802796d]" started-at="2025-04-24T22:06:54 IST" name="tearDown" finished-at="2025-04-24T22:06:54 IST" duration-ms="715" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.dvm.qa.selenium.testcases.LoginPageTest -->
     </test> <!-- ChromeTest -->
-    <test started-at="2025-04-22T21:46:42 IST" name="firefoxTest" finished-at="2025-04-22T21:50:01 IST" duration-ms="198903">
+    <test started-at="2025-04-24T22:06:40 IST" name="edgeTest" finished-at="2025-04-24T22:06:55 IST" duration-ms="14990">
       <class name="com.dvm.qa.selenium.testcases.LoginPageTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@3b69e7d1]" started-at="2025-04-22T21:46:42 IST" name="setUp" finished-at="2025-04-22T21:50:01 IST" duration-ms="198862" status="FAIL">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@3fc2959f]" started-at="2025-04-24T22:06:41 IST" name="setUp" finished-at="2025-04-24T22:06:48 IST" duration-ms="7705" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_Login_with_valid_credentials()[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@3fc2959f]" started-at="2025-04-24T22:06:48 IST" name="verify_Login_with_valid_credentials" finished-at="2025-04-24T22:06:54 IST" duration-ms="5513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_Login_with_valid_credentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@3fc2959f]" started-at="2025-04-24T22:06:54 IST" name="tearDown" finished-at="2025-04-24T22:06:55 IST" duration-ms="1526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.dvm.qa.selenium.testcases.LoginPageTest -->
+    </test> <!-- edgeTest -->
+    <test started-at="2025-04-24T22:06:40 IST" name="firefoxTest" finished-at="2025-04-24T22:07:01 IST" duration-ms="20764">
+      <class name="com.dvm.qa.selenium.testcases.LoginPageTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@1f2586d6]" started-at="2025-04-24T22:06:41 IST" name="setUp" finished-at="2025-04-24T22:06:51 IST" duration-ms="10561" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -61,132 +61,14 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[java.util.concurrent.TimeoutException
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [2f88ecc3-8fc1-4ea4-805a-a608cf0fa84c, get {url=https://ecommerce-playground.lambdatest.io/}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0, moz:accessibilityChecks: false, moz:buildID: 20250418091947, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4620, moz:profile: C:\Users\ltuser\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 2f88ecc3-8fc1-4ea4-805a-a608cf0fa84c]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [2f88ecc3-8fc1-4ea4-805a-a608cf0fa84c, get {url=https://ecommerce-playground.lambdatest.io/}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0, moz:accessibilityChecks: false, moz:buildID: 20250418091947, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4620, moz:profile: C:\Users\ltuser\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 2f88ecc3-8fc1-4ea4-805a-a608cf0fa84c
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:424)
-at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:212)
-at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
-at com.dvm.qa.selenium.testbase.TestBase.launchBrowser(TestBase.java:142)
-at com.dvm.qa.selenium.testcases.LoginPageTest.setUp(LoginPageTest.java:30)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2920)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
-... 3 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verify_Login_with_valid_credentials()[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@3b69e7d1]" started-at="2025-04-22T21:50:01 IST" name="verify_Login_with_valid_credentials" finished-at="2025-04-22T21:50:01 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[java.util.concurrent.TimeoutException
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [2f88ecc3-8fc1-4ea4-805a-a608cf0fa84c, get {url=https://ecommerce-playground.lambdatest.io/}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0, moz:accessibilityChecks: false, moz:buildID: 20250418091947, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4620, moz:profile: C:\Users\ltuser\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 2f88ecc3-8fc1-4ea4-805a-a608cf0fa84c]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [2f88ecc3-8fc1-4ea4-805a-a608cf0fa84c, get {url=https://ecommerce-playground.lambdatest.io/}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0, moz:accessibilityChecks: false, moz:buildID: 20250418091947, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4620, moz:profile: C:\Users\ltuser\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 2f88ecc3-8fc1-4ea4-805a-a608cf0fa84c
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:424)
-at org.openqa.selenium.remote.tracing.TracedHttpClient.execute(TracedHttpClient.java:54)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:212)
-at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:53)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
-at com.dvm.qa.selenium.testbase.TestBase.launchBrowser(TestBase.java:142)
-at com.dvm.qa.selenium.testcases.LoginPageTest.setUp(LoginPageTest.java:30)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:810)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:578)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.CompletableFuture$Timeout.run(CompletableFuture.java:2920)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
-... 3 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method signature="verify_Login_with_valid_credentials()[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@1f2586d6]" started-at="2025-04-24T22:06:51 IST" name="verify_Login_with_valid_credentials" finished-at="2025-04-24T22:06:57 IST" duration-ms="6200" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Login_with_valid_credentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@3b69e7d1]" started-at="2025-04-22T21:50:01 IST" name="tearDown" finished-at="2025-04-22T21:50:01 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@1f2586d6]" started-at="2025-04-24T22:06:57 IST" name="tearDown" finished-at="2025-04-24T22:07:01 IST" duration-ms="3756" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
