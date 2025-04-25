@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-25T22:52:10 IST" name="LambdaTestEcomSuite" finished-at="2025-04-25T22:52:55 IST" duration-ms="44395">
+  <suite started-at="2025-04-26T00:58:36 IST" name="LambdaTestEcomSuite" finished-at="2025-04-26T00:58:57 IST" duration-ms="21281">
     <groups>
     </groups>
-    <test started-at="2025-04-25T22:52:10 IST" name="ChromeTest" finished-at="2025-04-25T22:52:41 IST" duration-ms="31342">
+    <test started-at="2025-04-26T00:58:36 IST" name="ChromeTest" finished-at="2025-04-26T00:58:50 IST" duration-ms="13957">
       <class name="com.dvm.qa.selenium.testcases.LoginPageTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@6973b51b]" started-at="2025-04-25T22:52:11 IST" name="setUp" finished-at="2025-04-25T22:52:23 IST" duration-ms="12730" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@71809907]" started-at="2025-04-26T00:58:36 IST" name="setUp" finished-at="2025-04-26T00:58:41 IST" duration-ms="4495" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,19 +18,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verify_Login_with_valid_credentials()[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@6973b51b]" started-at="2025-04-25T22:52:23 IST" name="verify_Login_with_valid_credentials" finished-at="2025-04-25T22:52:38 IST" duration-ms="14205" status="PASS">
+        <test-method signature="verify_Login_with_valid_credentials()[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@71809907]" started-at="2025-04-26T00:58:41 IST" name="verify_Login_with_valid_credentials" finished-at="2025-04-26T00:58:50 IST" duration-ms="8671" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Login_with_valid_credentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@6973b51b]" started-at="2025-04-25T22:52:38 IST" name="tearDown" finished-at="2025-04-25T22:52:41 IST" duration-ms="3816" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@71809907]" started-at="2025-04-26T00:58:50 IST" name="tearDown" finished-at="2025-04-26T00:58:50 IST" duration-ms="593" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.dvm.qa.selenium.testcases.LoginPageTest -->
     </test> <!-- ChromeTest -->
-    <test started-at="2025-04-25T22:52:10 IST" name="edgeTest" finished-at="2025-04-25T22:52:43 IST" duration-ms="33329">
+    <test started-at="2025-04-26T00:58:36 IST" name="edgeTest" finished-at="2025-04-26T00:58:51 IST" duration-ms="14683">
       <class name="com.dvm.qa.selenium.testcases.LoginPageTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@67d48005]" started-at="2025-04-25T22:52:11 IST" name="setUp" finished-at="2025-04-25T22:52:19 IST" duration-ms="8005" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@36bc55de]" started-at="2025-04-26T00:58:36 IST" name="setUp" finished-at="2025-04-26T00:58:44 IST" duration-ms="7213" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,19 +41,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verify_Login_with_valid_credentials()[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@67d48005]" started-at="2025-04-25T22:52:19 IST" name="verify_Login_with_valid_credentials" finished-at="2025-04-25T22:52:41 IST" duration-ms="22049" status="PASS">
+        <test-method signature="verify_Login_with_valid_credentials()[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@36bc55de]" started-at="2025-04-26T00:58:44 IST" name="verify_Login_with_valid_credentials" finished-at="2025-04-26T00:58:49 IST" duration-ms="5791" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Login_with_valid_credentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@67d48005]" started-at="2025-04-25T22:52:41 IST" name="tearDown" finished-at="2025-04-25T22:52:43 IST" duration-ms="2776" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@36bc55de]" started-at="2025-04-26T00:58:49 IST" name="tearDown" finished-at="2025-04-26T00:58:51 IST" duration-ms="1467" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.dvm.qa.selenium.testcases.LoginPageTest -->
     </test> <!-- edgeTest -->
-    <test started-at="2025-04-25T22:52:10 IST" name="firefoxTest" finished-at="2025-04-25T22:52:55 IST" duration-ms="44395">
+    <test started-at="2025-04-26T00:58:36 IST" name="firefoxTest" finished-at="2025-04-26T00:58:57 IST" duration-ms="21281">
       <class name="com.dvm.qa.selenium.testcases.LoginPageTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@6379eb]" started-at="2025-04-25T22:52:11 IST" name="setUp" finished-at="2025-04-25T22:52:38 IST" duration-ms="27389" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@7e07db1f]" started-at="2025-04-26T00:58:36 IST" name="setUp" finished-at="2025-04-26T00:58:47 IST" duration-ms="11045" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -64,11 +64,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verify_Login_with_valid_credentials()[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@6379eb]" started-at="2025-04-25T22:52:38 IST" name="verify_Login_with_valid_credentials" finished-at="2025-04-25T22:52:49 IST" duration-ms="11365" status="PASS">
+        <test-method signature="verify_Login_with_valid_credentials()[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@7e07db1f]" started-at="2025-04-26T00:58:47 IST" name="verify_Login_with_valid_credentials" finished-at="2025-04-26T00:58:54 IST" duration-ms="6187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Login_with_valid_credentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@6379eb]" started-at="2025-04-25T22:52:49 IST" name="tearDown" finished-at="2025-04-25T22:52:55 IST" duration-ms="5147" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@7e07db1f]" started-at="2025-04-26T00:58:54 IST" name="tearDown" finished-at="2025-04-26T00:58:57 IST" duration-ms="3853" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
