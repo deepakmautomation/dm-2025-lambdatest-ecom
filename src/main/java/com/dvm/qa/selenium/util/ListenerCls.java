@@ -31,11 +31,13 @@ public class ListenerCls implements ITestListener{
 
 	@Override
 	public void onTestFailure(ITestResult result) {
+		//TakeScreenShot.getScreenShot(driver);
 		System.out.println(result.getMethod().getMethodName()+ "Test Failed");
 		ExtentTest test = SelnmAutoReport.extent.createTest(result.getMethod().getMethodName());
 		test.assignAuthor("Deepak");
 		test.log(Status.FAIL, "TesFailed");
 		test.log(Status.FAIL, result.getThrowable());
+		test.addScreenCaptureFromPath(System.getProperty("user.dir")+"\\screenshots\\screencap.png");
 	}
 
 	@Override

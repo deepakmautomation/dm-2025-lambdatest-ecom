@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-24T23:55:54 IST" name="LambdaTestEcomSuite" finished-at="2025-04-24T23:56:30 IST" duration-ms="36386">
+  <suite started-at="2025-04-25T22:52:10 IST" name="LambdaTestEcomSuite" finished-at="2025-04-25T22:52:55 IST" duration-ms="44395">
     <groups>
     </groups>
-    <test started-at="2025-04-24T23:55:54 IST" name="ChromeTest" finished-at="2025-04-24T23:56:08 IST" duration-ms="13739">
+    <test started-at="2025-04-25T22:52:10 IST" name="ChromeTest" finished-at="2025-04-25T22:52:41 IST" duration-ms="31342">
       <class name="com.dvm.qa.selenium.testcases.LoginPageTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@6973b51b]" started-at="2025-04-24T23:55:54 IST" name="setUp" finished-at="2025-04-24T23:56:02 IST" duration-ms="7523" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@6973b51b]" started-at="2025-04-25T22:52:11 IST" name="setUp" finished-at="2025-04-25T22:52:23 IST" duration-ms="12730" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,19 +18,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verify_Login_with_valid_credentials()[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@6973b51b]" started-at="2025-04-24T23:56:02 IST" name="verify_Login_with_valid_credentials" finished-at="2025-04-24T23:56:07 IST" duration-ms="5410" status="PASS">
+        <test-method signature="verify_Login_with_valid_credentials()[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@6973b51b]" started-at="2025-04-25T22:52:23 IST" name="verify_Login_with_valid_credentials" finished-at="2025-04-25T22:52:38 IST" duration-ms="14205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Login_with_valid_credentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@6973b51b]" started-at="2025-04-24T23:56:07 IST" name="tearDown" finished-at="2025-04-24T23:56:08 IST" duration-ms="603" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@6973b51b]" started-at="2025-04-25T22:52:38 IST" name="tearDown" finished-at="2025-04-25T22:52:41 IST" duration-ms="3816" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.dvm.qa.selenium.testcases.LoginPageTest -->
     </test> <!-- ChromeTest -->
-    <test started-at="2025-04-24T23:55:54 IST" name="edgeTest" finished-at="2025-04-24T23:56:10 IST" duration-ms="16451">
+    <test started-at="2025-04-25T22:52:10 IST" name="edgeTest" finished-at="2025-04-25T22:52:43 IST" duration-ms="33329">
       <class name="com.dvm.qa.selenium.testcases.LoginPageTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@67d48005]" started-at="2025-04-24T23:55:54 IST" name="setUp" finished-at="2025-04-24T23:56:02 IST" duration-ms="7352" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@67d48005]" started-at="2025-04-25T22:52:11 IST" name="setUp" finished-at="2025-04-25T22:52:19 IST" duration-ms="8005" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,19 +41,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verify_Login_with_valid_credentials()[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@67d48005]" started-at="2025-04-24T23:56:02 IST" name="verify_Login_with_valid_credentials" finished-at="2025-04-24T23:56:09 IST" duration-ms="7440" status="PASS">
+        <test-method signature="verify_Login_with_valid_credentials()[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@67d48005]" started-at="2025-04-25T22:52:19 IST" name="verify_Login_with_valid_credentials" finished-at="2025-04-25T22:52:41 IST" duration-ms="22049" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Login_with_valid_credentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@67d48005]" started-at="2025-04-24T23:56:09 IST" name="tearDown" finished-at="2025-04-24T23:56:10 IST" duration-ms="1468" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@67d48005]" started-at="2025-04-25T22:52:41 IST" name="tearDown" finished-at="2025-04-25T22:52:43 IST" duration-ms="2776" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.dvm.qa.selenium.testcases.LoginPageTest -->
     </test> <!-- edgeTest -->
-    <test started-at="2025-04-24T23:55:54 IST" name="firefoxTest" finished-at="2025-04-24T23:56:30 IST" duration-ms="36386">
+    <test started-at="2025-04-25T22:52:10 IST" name="firefoxTest" finished-at="2025-04-25T22:52:55 IST" duration-ms="44395">
       <class name="com.dvm.qa.selenium.testcases.LoginPageTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@6379eb]" started-at="2025-04-24T23:55:54 IST" name="setUp" finished-at="2025-04-24T23:56:26 IST" duration-ms="32031" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@6379eb]" started-at="2025-04-25T22:52:11 IST" name="setUp" finished-at="2025-04-25T22:52:38 IST" duration-ms="27389" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -64,68 +64,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verify_Login_with_valid_credentials()[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@6379eb]" started-at="2025-04-24T23:56:26 IST" name="verify_Login_with_valid_credentials" finished-at="2025-04-24T23:56:26 IST" duration-ms="199" status="FAIL">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
-            <message>
-              <![CDATA[Element <span class="title"> could not be scrolled into view
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [10f705fb-878c-426b-ad8f-2415cf494377, clickElement {id=a1c9fc16-2007-438b-b742-690bccc5b162}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0.2, moz:accessibilityChecks: false, moz:buildID: 20250414091429, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2712, moz:profile: C:\Users\DEEPAK~1.MAD\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Element: [[FirefoxDriver: firefox on windows (10f705fb-878c-426b-ad8f-2415cf494377)] -> xpath: //span[contains(text(),'Login')]]
-Session ID: 10f705fb-878c-426b-ad8f-2415cf494377]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: Element <span class="title"> could not be scrolled into view
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [10f705fb-878c-426b-ad8f-2415cf494377, clickElement {id=a1c9fc16-2007-438b-b742-690bccc5b162}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 137.0.2, moz:accessibilityChecks: false, moz:buildID: 20250414091429, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 2712, moz:profile: C:\Users\DEEPAK~1.MAD\AppDa..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Element: [[FirefoxDriver: firefox on windows (10f705fb-878c-426b-ad8f-2415cf494377)] -> xpath: //span[contains(text(),'Login')]]
-Session ID: 10f705fb-878c-426b-ad8f-2415cf494377
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at com.dvm.qa.selenium.pages.HomePage.clickOnLogin(HomePage.java:29)
-at com.dvm.qa.selenium.testcases.LoginPageTest.verify_Login_with_valid_credentials(LoginPageTest.java:37)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1583)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+        <test-method signature="verify_Login_with_valid_credentials()[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@6379eb]" started-at="2025-04-25T22:52:38 IST" name="verify_Login_with_valid_credentials" finished-at="2025-04-25T22:52:49 IST" duration-ms="11365" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Login_with_valid_credentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@6379eb]" started-at="2025-04-24T23:56:26 IST" name="tearDown" finished-at="2025-04-24T23:56:30 IST" duration-ms="3955" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.dvm.qa.selenium.testcases.LoginPageTest@6379eb]" started-at="2025-04-25T22:52:49 IST" name="tearDown" finished-at="2025-04-25T22:52:55 IST" duration-ms="5147" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

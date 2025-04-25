@@ -4,8 +4,8 @@
   <listeners>
     <listener class-name="com.dvm.qa.selenium.util.ListenerCls"/>
   </listeners>
-  <test thread-count="5" parallel="tests" name="firefoxTest(failed)" verbose="0">
-    <parameter name="browsername" value="firefox"/>
+  <test thread-count="5" parallel="tests" name="ChromeTest(failed)" verbose="0">
+    <parameter name="browsername" value="chrome"/>
     <classes>
       <class name="com.dvm.qa.selenium.testcases.LoginPageTest">
         <methods>
@@ -15,5 +15,5 @@
         </methods>
       </class> <!-- com.dvm.qa.selenium.testcases.LoginPageTest -->
     </classes>
-  </test> <!-- firefoxTest(failed) -->
+  </test> <!-- ChromeTest(failed) -->
 </suite> <!-- Failed suite [LambdaTestEcomSuite] -->
